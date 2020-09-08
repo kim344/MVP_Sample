@@ -1,6 +1,6 @@
-package com.kim344.mvp_sample
+package com.kim344.mvp_sample.main
 
-import com.kim344.mvp_sample.MainConstants.Presenter
+import com.kim344.mvp_sample.main.MainConstants.Presenter
 
 class MainModel(var presenter: Presenter) {
 

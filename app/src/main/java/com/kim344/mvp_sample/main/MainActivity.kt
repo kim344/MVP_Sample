@@ -1,11 +1,12 @@
-package com.kim344.mvp_sample
+package com.kim344.mvp_sample.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
+import com.kim344.mvp_sample.R
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity(), MainConstants.View {
+class MainActivity : AppCompatActivity(),
+    MainConstants.View {
 
     lateinit var mainPresenter: MainConstants.Presenter
 

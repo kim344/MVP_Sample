@@ -1,4 +1,4 @@
-package com.kim344.mvp_sample
+package com.kim344.mvp_sample.main
 
 interface MainConstants {
 
