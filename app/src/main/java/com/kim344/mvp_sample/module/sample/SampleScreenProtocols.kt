@@ -1,4 +1,4 @@
-package com.kim344.mvp_sample.module
+package com.kim344.mvp_sample.module.sample
 
 import android.content.Context
 import android.content.Intent
@@ -26,7 +26,7 @@ abstract class SampleScreenPresenterProtocol(view : SampleScreenViewProtocol):
 }
 
 interface SampleScreenRouterProtocol {
-
+    fun presentToolScreen(context: Context)
 }
 
 interface SampleScreenInteractorProtocol {
